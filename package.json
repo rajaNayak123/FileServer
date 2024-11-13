@@ -1,0 +1,17 @@
+{
+  "name": "serverfile",
+  "version": "1.0.0",
+  "description": "web server on your laptop that allows users to upload and access files remotely from anywhere in the world. Ensure the server is configured for file uploads and downloads and is accessible outside your local netwok",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "author": "rajaNayak",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
